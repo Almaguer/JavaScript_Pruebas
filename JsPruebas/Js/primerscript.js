@@ -28,11 +28,5 @@ function calculaGanador(a,b){
 
 	var runo = prompt("Hola jugador Uno, ¿piedra papel o tijera?");
 	var rdos = prompt("Hola jugador dos, ¿piedra papel o tijera?");
-
-	if (runo != "piedra" || runo!= "papel" || runo!= "tijera"){
-		alert("Escribe un valor válido");}
-		 else if(rdos != "piedra" || runo!= "papel" || runo!= "tijera"){
-		 	alert("Jugador dos, escribe uno valor válido");
-		 } else 
-
+	
 	alert(calculaGanador(runo,rdos));
